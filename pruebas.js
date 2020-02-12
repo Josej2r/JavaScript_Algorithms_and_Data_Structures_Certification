@@ -1,25 +1,16 @@
 // Setup
-function phoneticLookup(val) {
-  var result = "";
+var myObj = {
+  gift: "pony",
+  pet: "kitten",
+  bed: "sleigh"
+};
 
-  // Only change code below this line
-  var lookup = {
-    "alpha": "Adams";
-
-     "bravo":"Boston";
-
-     "charlie": "Chicago";
-
-     "delta": "Denver";
-
-     "echo": "Easy";
-
-     "foxtrot": "Frank";
-  }
-
-  // Only change code above this line
-  return result;
+function checkObj(checkProp) {
+  // Your Code Here
+if (myObj.hasOwnProperty(checkProp)){
+  console.log( myObj.checkProp)
+}
 }
 
-// Change this value to test
-phoneticLookup("charlie");
+// Test your code by modifying these values
+checkObj("gift");
