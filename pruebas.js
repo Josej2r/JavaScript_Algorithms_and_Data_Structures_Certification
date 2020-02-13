@@ -1,16 +1,14 @@
-// Setup
-var myObj = {
-  gift: "pony",
-  pet: "kitten",
-  bed: "sleigh"
-};
-
-function checkObj(checkProp) {
-  // Your Code Here
-if (myObj.hasOwnProperty(checkProp)){
-  console.log( myObj.checkProp)
-}
+function multiply(arr, n) {
+  var product = arr[0];
+  for (var i = 1; i <= n; i++) {
+      product *= arr[i];
+      console.log(product);
+  }
+  return product;
+  console.log(product);
 }
 
-// Test your code by modifying these values
-checkObj("gift");
+var arr=[1,2,3,4];
+var n = arr.length -1;
+
+multiply (arr,n);
