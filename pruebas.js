@@ -1,9 +1,8 @@
-function reverseString(str) {
-    var reversedStr="";
+const materials = [
+  'Hydrogen',
+  'Helium',
+  'Lithium',
+  'Beryllium'
+];
 
-reversedStr=str[1];
-  return reversedStr;
-  console.log(str[1]);
-}
-
-reverseString("hello");
+console.log(materials.map(material => material.length));
