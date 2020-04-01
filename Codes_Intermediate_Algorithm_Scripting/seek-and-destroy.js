@@ -3,18 +3,18 @@ function destroyer(arr) {
 
     var newArr=[];
 
-    for(var i=0; i< args[0].length; i++){
+    for(var i=0; i< arr.length; i++){
       //console.log(args[0].length);
      for(var j=1; j<args.length;j++){
-        
-        if(args[0][i] === args[j]){
+
+        if(arr[i] === args[j]){
            //newArr.push(args[0][i]);
-             delete arguments[0][i];      
+             delete arguments[0][i];
         }
 
       };
     };
-  
+
   console.log(arr.filter(Boolean));
 
   return arr.filter(Boolean);
