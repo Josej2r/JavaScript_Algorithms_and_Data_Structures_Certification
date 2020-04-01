@@ -1,7 +1,7 @@
 function destroyer(arr) {
    var args = Array.prototype.slice.call(arguments);
 
-    var newArr=[];
+
 
     for(var i=0; i< arr.length; i++){
       //console.log(args[0].length);
